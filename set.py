@@ -15,5 +15,3 @@ print(domain_set)
 
 # deleting the whole set using del
 del domain_set
-domain_set
-print(domain_set)

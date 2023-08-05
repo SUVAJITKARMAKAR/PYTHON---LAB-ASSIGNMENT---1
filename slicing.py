@@ -1,6 +1,6 @@
 # A PROGRAM TO DEMONSTRATE THE FUNCTIONALITIES OF SLICING AND NEGATIVE  INDEXING 
 
-domain_string = "THEDOMAINISDONEBYSUVAJITKARMAKAR"
+domain_string = ["HELLO", "I", "AM", "SUVAJIT", "KARMAKAR", "DOMAIN", "IS", "SOCIAL", "NETWORKING", "SITE"]
 print("DOMAIN STRING : ", domain_string)
 
 # NEGATIVE SLICING
@@ -21,3 +21,12 @@ print(domain_string[1:7:2])
 
 # NEGATIVE SLICING
 print(domain_string[-1:-12:-2])
+
+# SLICING 
+print(domain_string[::-2])
+
+#SLICING 
+print(domain_string[2:])
+
+# SLICING 
+print(domain_string[:])
